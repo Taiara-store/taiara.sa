@@ -29,7 +29,22 @@
     font-size:17px;
     line-height:20px;
 }
+/*google font for arabic*/
+.arabH{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      font-weight: 500;
+      line-height: 2;
 
+
+
+
+
+}
 /*h6 for services section color*/
 .ser{
     color: white;
@@ -308,7 +323,7 @@ video {
     background-size:cover; 
 }
 p {
-    /*margin-left:3em;*/
+    /* margin-left:3em; */
 }
 
 /*تنسيق الفيديو سلايدر نهاية */
@@ -484,13 +499,18 @@ p {
 2.2 Buttons - There are buttons on a transparent background, primary and secondary color background.
 **********/
  .button,  .button:visited, .button:focus {
-    display:inline-block;
-    border:1px solid #181A1C;
-    color:#181A1C;
-    background-color:transparent;
-    padding:15px 30px;
-    font-size:17px;
+
     line-height:auto;
+
+
+
+    display: inline-block;
+    /* border: 1px solid #181A1C; */
+    color: #181A1C;
+    background-color: transparent;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .button:hover, .button:active{
     background-color:#181A1C;
