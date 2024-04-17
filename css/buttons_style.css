@@ -90,7 +90,7 @@ padding: 15px 30px;
 background-color: #040404;
 /* background-color: #FECE1A; */
 
-color: #fff;
+color: #ffffff;
 text-decoration: none;
 border: none;
 position: relative;
@@ -121,13 +121,13 @@ to {opacity: 1}
 /*لتثبيت الزر */
 .fixed-buttonh {
     position: fixed;
-    bottom: 10px;
+    bottom: 80px;
     left: 10px;
     
 background-color: #FECE1A; 
 
   }
   .fixed-buttonh:hover {
-    color: #000;
+    color: #000000;
   }
 /*لتثبيت الزر */
